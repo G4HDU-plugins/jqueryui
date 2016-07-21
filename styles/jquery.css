@@ -1,0 +1,139 @@
+.autosize-style{
+	border-color:yellow;
+	border-width:1px;
+	border-style:solid;
+}
+#thing{
+background-color:red;
+}
+.fbloading {
+	background:url(../images/fb_bar_loading.gif) 0 0 no-repeat;
+	-webkit-box-shadow:0px 1px 4px rgba(0,0,0,.4);
+	-moz-box-shadow:0px 1px 4px rgba(0,0,0,.4);
+	box-shadow:0px 1px 4px rgba(0,0,0,.4);
+	color:#000;
+	font-size:1 em;
+	font-weight:bold;
+	height:20px;
+	line-height:20px ;
+	margin:20px auto;
+	padding:0;
+	text-align:center;
+	text-shadow:0 1px 1px rgba(255,255,255,.8);
+	width:200px !important;
+	z-index: 30;
+}
+#fbj_wrapper{
+	width:100%;
+	text-align:left;
+    border-spacing: 0px;
+    font:normal normal 400 12px/normal Verdana;
+	display: block;
+	text-indent:0px;
+	border-collapse:collapse;
+}
+#fbj_message{
+	min-height:50px;
+    height:auto !important;
+    height:50px;
+    width:99%;
+    display: block;
+    margin:auto;
+    margin-top:2px;
+    margin-bottom:2px;
+    border: 1px solid;
+    background-repeat: no-repeat;
+    background-position:15px center;
+    vertical-align:middle;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+#fbj_message ul {
+
+	list-style-position: outside;
+	list-style-type: circle;
+	margin-bottom: 1.3em;
+	margin-top: 1.3em;
+	padding:0 0 0 40px;
+}
+#fbj_message li{
+	margin-left:40px;
+	padding:0px;
+}
+.fbj_blank{
+	background-color: #fff;
+ 	border-color:#ff0000;
+}
+.fbj_error{
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url(fb_images/error.png);
+}
+.fbj_info{
+	color: #00529B;
+	background-color: #BDE5F8;
+	background-image: url(fb_images/info.png);
+}
+.fbj_success{
+	color: #4F8A10;
+	background-color: #DFF2BF;
+	background-image:url(fb_images/success.png);
+}
+.fbj_warning {
+	color: #9F6000;
+	background-color: #FEEFB3;
+	background-image: url(fb_images/warning.png);
+}
+.fbj_validation {
+	color: #D63301;
+	background-color: #FFCCBA;
+	background-image: url(fb_images/validation.png);
+}
+.fbj_blank {
+	border:1px transparent;
+	background-image: url(fb_images/blank.png);
+}
+.redit{
+	border-style:solid;
+	border-color:#ff0000;
+	border-width:2px;
+}
+.fb_overlay{
+	position:relative;
+	z-index:2;
+	zoom:1;
+	display:block;
+	min-height:300px;
+	bottom:0px;
+	background-image: url(fb_images/transfade300v1.png);
+	background-repeat:repeat-x;
+	background-position:left bottom;
+	margin:0px;
+	padding:0px;
+}
+#fbj_newsticker{
+
+}
+.ui-combobox {
+	position: relative;
+	display: inline-block;
+}
+.ui-combobox-toggle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-left: -1px;
+	padding: 0;
+	/* adjust styles for IE 6/7 */
+	height: 1.85em;
+	top: 0.65em;
+}
+.ui-combobox-input {
+	margin: 0;
+	padding: 0.3em;
+}
+
+.ui-autocomplete ul{
+	max-height:200px !important;
+	overflow-y:auto !important;
+}
